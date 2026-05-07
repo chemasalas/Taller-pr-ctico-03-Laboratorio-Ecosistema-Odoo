@@ -22,16 +22,14 @@ Ajustes → Técnico → Interfaz de usuario → Vistas
 Una vez dentro en el buscador deberemos poner este archivo: sale.report_saleorder_document y buscarlo por clave 
 <img width="610" height="269" alt="image" src="https://github.com/user-attachments/assets/7deaab98-1369-40b1-b764-f132e3e357cf" />
 Una vez buscado clicamos y nos aparecera un XML bastante extenso, dentro del XML, al final (antes de </div>), añadimos los siguiente:
-<div class="row mt32 mb32" id="legal_warning">
-    <div class="col-12">
-        <p style="color: red; font-weight: bold; border-top: 1px solid black; padding-top: 10px;">
-            Atención: Este documento vinculante está sujeto a las condiciones generales de venta de DAM/DAW S.L. (CIF: B-12345678).
-        </p>
-        <p class="text-muted" style="font-size: 10px; text-align: justify;">
-            Protección de datos: En cumplimiento de la Ley Orgánica 3/2018 y el RGPD europeo, le informamos que sus datos serán tratados de forma estrictamente confidencial.
-        </p>
-    </div>
-</div>
+<img width="487" height="391" alt="image" src="https://github.com/user-attachments/assets/fdbaad80-e7d1-42b0-8553-970e026c0287" />
+Una vez puesto lo guardamos y lo probamos, nos dirigiremos a ventas, abrimos el pedido que habiamos creado y pulsamos a imprimir y a presupuesto (Pedido - S00002)
+
+
+### Fase 3: Exportación de Información
+Nos dirigiremos a clientes y a la facturacion y seleccionaremos todos los clientes en el checkbox de arriba
+<img width="1919" height="481" alt="image" src="https://github.com/user-attachments/assets/701bfc63-29e6-49db-b7a9-a9cbf5cf15dd" />
+ledeberemos dar a acciones y a exportar <img width="532" height="386" alt="image" src="https://github.com/user-attachments/assets/c56a2ec2-135c-4369-93e5-dc2e063cff34" />
 
 
 
