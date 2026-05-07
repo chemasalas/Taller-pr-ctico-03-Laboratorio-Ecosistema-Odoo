@@ -15,7 +15,7 @@ Deberemos crear un producto para vender en mi caso voy a poner monitor, deberemo
 Ahora confirmaremos la entrega, simplemente en el icono del camion pinchamos y lo validamos.
 Ahora crearemos la factura, volvemos al pedido y le daremos a crear factura normal y ya estaria.
 
-### Fase 2: Elaboración de Informes
+## Fase 2: Elaboración de Informes
 En la pagina principal de odoo  nos ireemos a ajustes, una vez dentro buscamos la parte Tecnico despues en interfaz de usuario y vistas.
 Ajustes → Técnico → Interfaz de usuario → Vistas
 <img width="900" height="748" alt="image" src="https://github.com/user-attachments/assets/7e0cf2b7-c36a-490c-9b09-07ceb3453f6b" />
@@ -26,10 +26,22 @@ Una vez buscado clicamos y nos aparecera un XML bastante extenso, dentro del XML
 Una vez puesto lo guardamos y lo probamos, nos dirigiremos a ventas, abrimos el pedido que habiamos creado y pulsamos a imprimir y a presupuesto (Pedido - S00002)
 
 
-### Fase 3: Exportación de Información
+## Fase 3: Exportación de Información
 Nos dirigiremos a clientes y a la facturacion y seleccionaremos todos los clientes en el checkbox de arriba
 <img width="1919" height="481" alt="image" src="https://github.com/user-attachments/assets/701bfc63-29e6-49db-b7a9-a9cbf5cf15dd" />
 ledeberemos dar a acciones y a exportar <img width="532" height="386" alt="image" src="https://github.com/user-attachments/assets/c56a2ec2-135c-4369-93e5-dc2e063cff34" />
+Una vez dado deberemos selccionar el tipo Exportar compatible con importación y el formato CSV.
+Ahora selecionamos los campos Nombre, email, telefono y pais. Deberia quedar una cosa asi:
+<img width="977" height="416" alt="image" src="https://github.com/user-attachments/assets/db3ef97f-88bb-4642-a009-2a38b93691af" />
+Ahora le daremos a exportar y los abriremos con VS code y verificamos que esta todo bien: 
+UTF-8
+
+Comas correctas
+
+Tildes bien
+
+El archivo exportado se llama Contacto (res.partner).csv
+
 
 
 
