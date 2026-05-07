@@ -19,8 +19,22 @@ Ahora crearemos la factura, volvemos al pedido y le daremos a crear factura norm
 En la pagina principal de odoo  nos ireemos a ajustes, una vez dentro buscamos la parte Tecnico despues en interfaz de usuario y vistas.
 Ajustes → Técnico → Interfaz de usuario → Vistas
 <img width="900" height="748" alt="image" src="https://github.com/user-attachments/assets/7e0cf2b7-c36a-490c-9b09-07ceb3453f6b" />
-Una vez dentro en el buscador deberemos poner este archivo: sale.report_saleorder_document y buscarlo por vistas 
-<img width="607" height="252" alt="image" src="https://github.com/user-attachments/assets/8ee82a6e-8aca-48d2-bcd2-e4bacab4c0da" />
+Una vez dentro en el buscador deberemos poner este archivo: sale.report_saleorder_document y buscarlo por clave 
+<img width="610" height="269" alt="image" src="https://github.com/user-attachments/assets/7deaab98-1369-40b1-b764-f132e3e357cf" />
+Una vez buscado clicamos y nos aparecera un XML bastante extenso, dentro del XML, al final (antes de </div>), añadimos los siguiente:
+<div class="row mt32 mb32" id="legal_warning">
+    <div class="col-12">
+        <p style="color: red; font-weight: bold; border-top: 1px solid black; padding-top: 10px;">
+            Atención: Este documento vinculante está sujeto a las condiciones generales de venta de DAM/DAW S.L. (CIF: B-12345678).
+        </p>
+        <p class="text-muted" style="font-size: 10px; text-align: justify;">
+            Protección de datos: En cumplimiento de la Ley Orgánica 3/2018 y el RGPD europeo, le informamos que sus datos serán tratados de forma estrictamente confidencial.
+        </p>
+    </div>
+</div>
+
+
+
 
 
 
